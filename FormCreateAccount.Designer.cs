@@ -50,7 +50,7 @@
             // cmbFiliere
             // 
             cmbFiliere.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbFiliere.Items.AddRange(new object[] { "Selectionner une Filiere", "Bussiness Computing", "E-Business", "Business Information Systems", "Business Intelligence" });
+            cmbFiliere.Items.AddRange(new object[] { "Selectionner une Filiere", "Business Computing", "E-Business", "Business Information Systems", "Business Intelligence" });
             cmbFiliere.Location = new Point(64, 175);
             cmbFiliere.Name = "cmbFiliere";
             cmbFiliere.Size = new Size(253, 23);
@@ -138,7 +138,7 @@
             // cmbNiveau
             // 
             cmbNiveau.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbNiveau.Items.AddRange(new object[] { "Selectionner un Niveau", "License 1", "License 2", "LIcense 3", "Master 1", "Master 2" });
+            cmbNiveau.Items.AddRange(new object[] { "Selectionner un Niveau", "License 1", "License 2", "License 3", "Master 1", "Master 2" });
             cmbNiveau.Location = new Point(64, 204);
             cmbNiveau.Name = "cmbNiveau";
             cmbNiveau.Size = new Size(253, 23);

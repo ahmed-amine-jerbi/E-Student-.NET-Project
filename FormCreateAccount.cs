@@ -69,8 +69,8 @@ namespace EStudentPlatform
                                 }
 
                                 user_insertion_query.Parameters.AddWithValue("@name", txtRegFirstName.Text);
-                                user_insertion_query.Parameters.AddWithValue("@lastname", txtRegFirstName.Text);
-                                user_insertion_query.Parameters.AddWithValue("@email", txtRegFirstName.Text);
+                                user_insertion_query.Parameters.AddWithValue("@lastname", textRegLastName.Text);
+                                user_insertion_query.Parameters.AddWithValue("@email", textRegEmail.Text);
                                 user_insertion_query.Parameters.AddWithValue("@pass", BCrypt.Net.BCrypt.HashPassword(txtRegPass.Text));
                                 user_insertion_query.Parameters.AddWithValue("@role", "Etudiant");
                                 user_insertion_query.Parameters.AddWithValue("@groupeId", GroupeId);
